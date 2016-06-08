@@ -1,0 +1,2062 @@
+(dp0
+S'Jeff Filgo'
+p1
+(lp2
+F6.2
+aI1
+asS'Jorma Taccone'
+p3
+(lp4
+F5.5
+aI1
+asS'John Luessenhop'
+p5
+(lp6
+F6.2
+aI1
+asS'James Vanderbilt'
+p7
+(lp8
+F6.4
+aI1
+asS'Mike Leigh'
+p9
+(lp10
+F7.3
+aI1
+asS'Craig Pearce'
+p11
+(lp12
+F6.5
+aI1
+asS'Manish Pandey'
+p13
+(lp14
+F8.6
+aI1
+asS'Chris Denk'
+p15
+(lp16
+F5.3
+aI1
+asS'Michael William Edwards'
+p17
+(lp18
+F6.1
+aI1
+asS'Geeta Anand'
+p19
+(lp20
+F6.5
+aI1
+asS'Abhinav Kashyap'
+p21
+(lp22
+F6.3
+aI1
+asS'Peter Berg'
+p23
+(lp24
+F6.4
+aI1
+asS'Bert V. Royal'
+p25
+(lp26
+F7.1
+aI1
+asS'Paul Haggis'
+p27
+(lp28
+F7.4
+aI1
+asS'Werner Herzog'
+p29
+(lp30
+F7.4
+aI1
+asS'Liam ODonnell'
+p31
+(lp32
+F4.4
+aI1
+asS'Brian Bloom'
+p33
+(lp34
+F6.8
+aI1
+asS'Jennifer Salt'
+p35
+(lp36
+F5.7
+aI1
+asS'Woody Allen'
+p37
+(lp38
+F6.3
+aI1
+asS'Lawrence Konner'
+p39
+(lp40
+F6.1
+aI1
+asS'Val\xc3\xa9rie Beaugrand-Champagne'
+p41
+(lp42
+F8.2
+aI1
+asS'Greg Glienna'
+p43
+(lp44
+F5.5
+aI1
+asS'Wes Craven'
+p45
+(lp46
+F4.8
+aI1
+asS'Jennifer Ventimilia'
+p47
+(lp48
+F4.6
+aI1
+asS'David I. Stern'
+p49
+(lp50
+F5.2
+aI1
+asS'Adam Horowitz'
+p51
+(lp52
+F6.8
+aI1
+asS'Joshua Sternin'
+p53
+(lp54
+F4.6
+aI1
+asS'Alan Schoolcraft'
+p55
+(lp56
+F7.3
+aI1
+asS'Dennis Lehane'
+p57
+(lp58
+F8.1
+aI1
+asS'Will Forte'
+p59
+(lp60
+F5.5
+aI1
+asS'Lee Unkrich'
+p61
+(lp62
+F8.3
+aI1
+asS'Emil Stern'
+p63
+(lp64
+F7.0
+aI1
+asS'Allan Loeb'
+p65
+(lp66
+F6.3
+aI1
+asS'Gareth Edwards'
+p67
+(lp68
+F6.4
+aI1
+asS'Stephen Schiff'
+p69
+(lp70
+F6.3
+aI1
+asS'Satoshi Nishimura'
+p71
+(lp72
+F7.5
+aI1
+asS'Christopher McQuarrie'
+p73
+(lp74
+F6.0
+aI1
+asS'Wajdi Mouawad'
+p75
+(lp76
+F8.2
+aI1
+asS'Emili Teixidor'
+p77
+(lp78
+F7.0
+aI1
+asS'Eric Garcia'
+p79
+(lp80
+F6.3
+aI2
+asS'Eric Johnson'
+p81
+(lp82
+F7.9
+aI1
+asS'Duane Adler'
+p83
+(lp84
+F6.2
+aI1
+asS'Candace Bushnell'
+p85
+(lp86
+F4.3
+aI1
+asS'Joe Carnahan'
+p87
+(lp88
+F6.8
+aI1
+asS'Lewis Colick'
+p89
+(lp90
+F6.5
+aI1
+asS'Rob Epstein'
+p91
+(lp92
+F6.8
+aI1
+asS'Dilip Shukla'
+p93
+(lp94
+F6.3
+aI1
+asS'Athina Rachel Tsangari'
+p95
+(lp96
+F6.2
+aI1
+asS'Cinco Paul'
+p97
+(lp98
+F7.7
+aI1
+asS'Huck Botko'
+p99
+(lp100
+F5.6
+aI1
+asS'Julian Fellowes'
+p101
+(lp102
+F6.0
+aI1
+asS'Jackie Filgo'
+p103
+(lp104
+F6.2
+aI1
+asS'Jason Friedberg'
+p105
+(lp106
+F3.5
+aI1
+asS'Joshua Cordes'
+p107
+(lp108
+F4.4
+aI1
+asS'Bryan Lee OMalley'
+p109
+(lp110
+F7.5
+aI1
+asS'Pamela Gray'
+p111
+(lp112
+F7.2
+aI1
+asS'Peter Allen'
+p113
+(lp114
+F6.2
+aI1
+asS'Tim Rasmussen'
+p115
+(lp116
+F4.2
+aI1
+asS'Takuji Suzuki'
+p117
+(lp118
+F6.6
+aI1
+asS'Syed Gulrez'
+p119
+(lp120
+F3.5
+aI1
+asS'Dean A. Burhan'
+p121
+(lp122
+F7.3
+aI1
+asS'Gregory Bernstein'
+p123
+(lp124
+F7.0
+aI1
+asS'Nicholas Sparks'
+p125
+(lp126
+F5.966666666666666
+aI3
+asS'Yoshinobu Nishizaki'
+p127
+(lp128
+F6.1
+aI1
+asS'Adam Green'
+p129
+(lp130
+F5.4
+aI1
+asS'J.K. Rowling'
+p131
+(lp132
+F7.7
+aI1
+asS'Matthew Vaughn'
+p133
+(lp134
+F7.300000000000001
+aI2
+asS'Brent Simons'
+p135
+(lp136
+F7.3
+aI1
+asS'Robert Rodriguez'
+p137
+(lp138
+F6.7
+aI1
+asS'Michael Patrick King'
+p139
+(lp140
+F4.3
+aI1
+asS'Stephen McFeely'
+p141
+(lp142
+F6.3
+aI1
+asS'Hoon-jung Park'
+p143
+(lp144
+F7.8
+aI1
+asS'Ashmith Kunder'
+p145
+(lp146
+F2.5
+aI1
+asS'Paul W.S. Anderson'
+p147
+(lp148
+F5.9
+aI1
+asS'Fred Cavay\xc3\xa9'
+p149
+(lp150
+F7.4
+aI1
+asS'Andrew Gurland'
+p151
+(lp152
+F5.6
+aI1
+asS'Norman Snider'
+p153
+(lp154
+F6.2
+aI1
+asS'Josh Klausner'
+p155
+(lp156
+F6.35
+aI2
+asS'Josh Gilbert'
+p157
+(lp158
+F3.8
+aI1
+asS'\xc3\x81lvaro Rodr\xc3\xadguez'
+p159
+(lp160
+F6.7
+aI1
+asS'Wendelin Van Draanen'
+p161
+(lp162
+F7.7
+aI1
+asS'Kurt Wimmer'
+p163
+(lp164
+F6.4
+aI1
+asS'Beverly Cleary'
+p165
+(lp166
+F6.7
+aI1
+asS'Jason Segel'
+p167
+(lp168
+F6.4
+aI1
+asS'James Greer'
+p169
+(lp170
+F5.4
+aI1
+asS'Peter Straughan'
+p171
+(lp172
+F6.9
+aI1
+asS'Yoann Gromb'
+p173
+(lp174
+F6.8
+aI1
+asS'Vishal Dadlani'
+p175
+(lp176
+F2.5
+aI1
+asS'Mario Giordano'
+p177
+(lp178
+F6.4
+aI2
+asS'Florian Henckel von Donnersmarck'
+p179
+(lp180
+F6.0
+aI1
+asS'Caroline Eliacheff'
+p181
+(lp182
+F7.2
+aI1
+asS'Ben Gluck'
+p183
+(lp184
+F5.3
+aI2
+asS'Tai-Li Chan'
+p185
+(lp186
+F7.6
+aI1
+asS'Luc Besson'
+p187
+(lp188
+F6.5
+aI1
+asS'William Ivory'
+p189
+(lp190
+F7.2
+aI1
+asS'Anurag Basu'
+p191
+(lp192
+F6.0
+aI1
+asS'Marc Smerling'
+p193
+(lp194
+F6.3
+aI1
+asS'Br\xc3\xa1ulio Mantovani'
+p195
+(lp196
+F8.1
+aI2
+asS'Nick McDonell'
+p197
+(lp198
+F5.7
+aI1
+asS'Jalmari Helander'
+p199
+(lp200
+F6.7
+aI2
+asS'Tom K. McCarthy'
+p201
+(lp202
+F5.4
+aI1
+asS'Mark Neveldine'
+p203
+(lp204
+F4.7
+aI1
+asS'Keiko Niwa'
+p205
+(lp206
+F7.7
+aI1
+asS'Ry\xc3\xb4ichi Kimizuka'
+p207
+(lp208
+F5.4
+aI1
+asS'Ken Hixon'
+p209
+(lp210
+F7.0
+aI1
+asS'Joaquin Phoenix'
+p211
+(lp212
+F6.2
+aI1
+asS'Anne Rosellini'
+p213
+(lp214
+F7.2
+aI1
+asS'William Steig'
+p215
+(lp216
+F6.4
+aI1
+asS'James D. Solomon'
+p217
+(lp218
+F7.0
+aI2
+asS'Edgar Wright'
+p219
+(lp220
+F7.5
+aI1
+asS'Adam Bolt'
+p221
+(lp222
+F8.3
+aI1
+asS'Mary Norton'
+p223
+(lp224
+F7.7
+aI1
+asS'John Sayles'
+p225
+(lp226
+F5.8
+aI1
+asS'Nick Mead'
+p227
+(lp228
+F4.9
+aI1
+asS'Steven Lawson'
+p229
+(lp230
+F3.7
+aI1
+asS'Rachid Bouchareb'
+p231
+(lp232
+F6.7
+aI1
+asS'James Gunn'
+p233
+(lp234
+F6.8
+aI1
+asS'Juno Mak'
+p235
+(lp236
+F6.8
+aI1
+asS'Nicol\xc3\xa1s Giacobone'
+p237
+(lp238
+F7.5
+aI1
+asS'Kate Angelo'
+p239
+(lp240
+F5.3
+aI1
+asS'Julio Rojas'
+p241
+(lp242
+F6.2
+aI1
+asS'William Davies'
+p243
+(lp244
+F8.2
+aI1
+asS'Mark Heyman'
+p245
+(lp246
+F8.0
+aI1
+asS'Andrew Stanton'
+p247
+(lp248
+F8.3
+aI1
+asS'Stuart Blumberg'
+p249
+(lp250
+F7.1
+aI1
+asS'Bhadwai'
+p251
+(lp252
+F7.5
+aI1
+asS'Scott Silver'
+p253
+(lp254
+F7.9
+aI1
+asS'Matt Reeves'
+p255
+(lp256
+F7.2
+aI1
+asS'Gary Whitta'
+p257
+(lp258
+F6.9
+aI1
+asS'Michael Konyves'
+p259
+(lp260
+F7.3
+aI1
+asS'Dai Sak\xc3\xb4'
+p261
+(lp262
+F3.8
+aI1
+asS'S\xc3\xb4ky\xc3\xbb Geny\xc3\xbb'
+p263
+(lp264
+F3.8
+aI1
+asS'Apichatpong Weerasethakul'
+p265
+(lp266
+F6.6
+aI1
+asS'Casey Affleck'
+p267
+(lp268
+F6.2
+aI1
+asS'Anvita Dutt Guptan'
+p269
+(lp270
+F2.5
+aI1
+asS'Rick Riordan'
+p271
+(lp272
+F5.9
+aI1
+asS'Adi Hasak'
+p273
+(lp274
+F6.5
+aI1
+asS'Meir Zarchi'
+p275
+(lp276
+F6.3
+aI1
+asS'Phra Sripariyattiweti'
+p277
+(lp278
+F6.6
+aI1
+asS'Richard Ayoade'
+p279
+(lp280
+F7.3
+aI1
+asS'Aaron Seltzer'
+p281
+(lp282
+F3.5
+aI1
+asS'Abby Kohn'
+p283
+(lp284
+F5.7
+aI1
+asS'Jane Goldman'
+p285
+(lp286
+F7.300000000000001
+aI2
+asS'Panos Cosmatos'
+p287
+(lp288
+F6.1
+aI1
+asS'Nunoe Mura'
+p289
+(lp290
+F6.6
+aI1
+asS'Michiko Ohishi'
+p291
+(lp292
+F6.6
+aI1
+asS'M. Night Shyamalan'
+p293
+(lp294
+F5.25
+aI2
+asS'Debra Granik'
+p295
+(lp296
+F7.2
+aI1
+asS'Stan Lee'
+p297
+(lp298
+F7.0
+aI1
+asS'Patrick ONeill'
+p299
+(lp300
+F6.3
+aI1
+asS'Adam McKay'
+p301
+(lp302
+F6.7
+aI1
+asS'Jos\xc3\xa9 Padilha'
+p303
+(lp304
+F8.1
+aI1
+asS'Nicholas Stoller'
+p305
+(lp306
+F6.4
+aI1
+asS'Karin Gist'
+p307
+(lp308
+F5.1
+aI1
+asS'Domenico Salvaggio'
+p309
+(lp310
+F4.9
+aI1
+asS'Jennifer Jason Leigh'
+p311
+(lp312
+F6.1
+aI1
+asS'Mike Rich'
+p313
+(lp314
+F7.2
+aI1
+asS'John Morris'
+p315
+(lp316
+F6.4
+aI2
+asS'Edmond Wong'
+p317
+(lp318
+F7.6
+aI1
+asS'Wu Si'
+p319
+(lp320
+F7.6
+aI1
+asS'Tim Sullivan'
+p321
+(lp322
+F6.5
+aI1
+asS'Dan Berendsen'
+p323
+(lp324
+F5.1
+aI1
+asS'Robert Harris'
+p325
+(lp326
+F7.2
+aI2
+asS'Aaron Stockard'
+p327
+(lp328
+F7.6
+aI1
+asS'Xavier Beauvois'
+p329
+(lp330
+F7.2
+aI1
+asS'Katherine Fugate'
+p331
+(lp332
+F5.866666666666667
+aI3
+asS'John Curran'
+p333
+(lp334
+F6.1
+aI1
+asS'Keith R. Clarke'
+p335
+(lp336
+F7.3
+aI1
+asS'Will Fetters'
+p337
+(lp338
+F7.2
+aI1
+asS'Sean Anders'
+p339
+(lp340
+F6.4
+aI2
+asS'Kazuo Ishiguro'
+p341
+(lp342
+F7.2
+aI1
+asS'Kamal'
+p343
+(lp344
+F5.1
+aI3
+asS'Haruki Murakami'
+p345
+(lp346
+F6.4
+aI1
+asS'Brian Taylor'
+p347
+(lp348
+F4.7
+aI1
+asS'Dean DeBlois'
+p349
+(lp350
+F8.2
+aI1
+asS'Sanjay Leela Bhansali'
+p351
+(lp352
+F7.5
+aI1
+asS'Kristin Rusk Robinson'
+p353
+(lp354
+F6.6
+aI1
+asS'Brian Helgeland'
+p355
+(lp356
+F6.9
+aI1
+asS'David Guion'
+p357
+(lp358
+F5.9
+aI1
+asS'Piers Ashworth'
+p359
+(lp360
+F6.2
+aI1
+asS'Lucinda Coxon'
+p361
+(lp362
+F6.9
+aI1
+asS'Ken Bruen'
+p363
+(lp364
+F6.2
+aI1
+asS'Garrett Lerner'
+p365
+(lp366
+F6.3
+aI1
+asS'Laeta Kalogridis'
+p367
+(lp368
+F8.1
+aI1
+asS'Michael Handelman'
+p369
+(lp370
+F5.9
+aI1
+asS'David Mich\xc3\xb4d'
+p371
+(lp372
+F7.3
+aI1
+asS'Kathryn Lasky'
+p373
+(lp374
+F7.0
+aI1
+asS'Daniel Woodrell'
+p375
+(lp376
+F7.2
+aI1
+asS'Chris Henchy'
+p377
+(lp378
+F6.7
+aI1
+asS'Etienne Comar'
+p379
+(lp380
+F7.2
+aI1
+asS'Hiu-Yan Choi'
+p381
+(lp382
+F7.6
+aI1
+asS'Michael Finch'
+p383
+(lp384
+F6.4
+aI1
+asS'Noon Meem Rashet'
+p385
+(lp386
+F7.5
+aI1
+asS'Keisuke Yoshida'
+p387
+(lp388
+F7.2
+aI1
+asS'Jack Hitt'
+p389
+(lp390
+F7.4
+aI1
+asS'Robert Nelson Jacobs'
+p391
+(lp392
+F6.5
+aI1
+asS'Adam Rockoff'
+p393
+(lp394
+F6.3
+aI1
+asS'Angus MacLachlan'
+p395
+(lp396
+F5.4
+aI1
+asS'Jim Thomas'
+p397
+(lp398
+F6.4
+aI1
+asS'Paul A. Birkett'
+p399
+(lp400
+F4.9
+aI1
+asS'Gabriel Casseus'
+p401
+(lp402
+F6.2
+aI1
+asS'Abbas Kiarostami'
+p403
+(lp404
+F7.2
+aI1
+asS'Steve Antin'
+p405
+(lp406
+F6.4
+aI1
+asS'John J. McLaughlin'
+p407
+(lp408
+F8.0
+aI1
+asS'Joseph Whitmarsh'
+p409
+(lp410
+F6.7
+aI1
+asS'Seok-Min Choi'
+p411
+(lp412
+F4.9
+aI1
+asS'Shawn Ku'
+p413
+(lp414
+F6.6
+aI1
+asS'Bhavani Iyer'
+p415
+(lp416
+F7.5
+aI2
+asS'Craig Titley'
+p417
+(lp418
+F5.9
+aI1
+asS'John Orloff'
+p419
+(lp420
+F7.0
+aI1
+asS'Laurent Zeitoun'
+p421
+(lp422
+F6.8
+aI1
+asS'Christopher Landon'
+p423
+(lp424
+F5.7
+aI1
+asS'Judd Winick'
+p425
+(lp426
+F8.0
+aI1
+asS'Fred Wolf'
+p427
+(lp428
+F6.0
+aI1
+asS'Quentin Dupieux'
+p429
+(lp430
+F5.8
+aI1
+asS'Mike Mills'
+p431
+(lp432
+F7.2
+aI1
+asS'Morgan Jurgenson'
+p433
+(lp434
+F7.6
+aI1
+asS'Ted Griffin'
+p435
+(lp436
+F5.4
+aI1
+asS'David Self'
+p437
+(lp438
+F5.8
+aI1
+asS'Mordecai Richler'
+p439
+(lp440
+F7.3
+aI1
+asS'Peter Weir'
+p441
+(lp442
+F7.3
+aI1
+asS'Laurie Craig'
+p443
+(lp444
+F6.7
+aI1
+asS'Noah Baumbach'
+p445
+(lp446
+F6.1
+aI2
+asS'Larry Stuckey'
+p447
+(lp448
+F5.5
+aI1
+asS'Michael R. Perry'
+p449
+(lp450
+F5.7
+aI1
+asS'Lena Dunham'
+p451
+(lp452
+F6.3
+aI1
+asS'Vince Di Meglio'
+p453
+(lp454
+F4.2
+aI1
+asS'Srdjan Spasojevic'
+p455
+(lp456
+F5.2
+aI1
+asS'Mark Rosenthal'
+p457
+(lp458
+F6.1
+aI1
+asS'Ching-Po Wong'
+p459
+(lp460
+F6.8
+aI1
+asS'Jose Rivera'
+p461
+(lp462
+F6.5
+aI1
+asS'Eli Craig'
+p463
+(lp464
+F7.6
+aI1
+asS'Joe Ma'
+p465
+(lp466
+F4.9
+aI1
+asS'Pierre Salvadori'
+p467
+(lp468
+F6.9
+aI1
+asS'Francis Veber'
+p469
+(lp470
+F5.9
+aI1
+asS'Tran Anh Hung'
+p471
+(lp472
+F6.4
+aI1
+asS'Harrison Stone'
+p473
+(lp474
+F7.1
+aI1
+asS'Siddique'
+p475
+(lp476
+F6.4
+aI1
+asS'Kazunari Kouchi'
+p477
+(lp478
+F6.8
+aI1
+asS'Shibani Bathija'
+p479
+(lp480
+F8.0
+aI2
+asS'Naoki Kat\xc3\xb4'
+p481
+(lp482
+F3.8
+aI1
+asS'Carlo Bernard'
+p483
+(lp484
+F6.6
+aI1
+asS'Marcus Dunstan'
+p485
+(lp486
+F5.6
+aI1
+asS'Sebastian Gutierrez'
+p487
+(lp488
+F5.1
+aI2
+asS'Christopher Markus'
+p489
+(lp490
+F6.3
+aI1
+asS'Ben Affleck'
+p491
+(lp492
+F7.6
+aI1
+asS'Lai-yin Leung'
+p493
+(lp494
+F6.8
+aI1
+asS'Peter Woodward'
+p495
+(lp496
+F7.1
+aI1
+asS'Joe Dunthorne'
+p497
+(lp498
+F7.3
+aI1
+asS'Amy Andelson'
+p499
+(lp500
+F6.2
+aI1
+asS'Denis Villeneuve'
+p501
+(lp502
+F8.2
+aI1
+asS'Ling Zhang'
+p503
+(lp504
+F7.6
+aI1
+asS'Andrew Traucki'
+p505
+(lp506
+F5.8
+aI1
+asS'Guillaume Lemans'
+p507
+(lp508
+F7.4
+aI1
+asS'Jim Thompson'
+p509
+(lp510
+F6.1
+aI1
+asS'Brad Anderson'
+p511
+(lp512
+F4.2
+aI1
+asS'Michael Armbruster'
+p513
+(lp514
+F6.6
+aI1
+asS'G\xc3\xb4sh\xc3\xb4 Aoyama'
+p515
+(lp516
+F6.8
+aI1
+asS'Shimako Sato'
+p517
+(lp518
+F6.1
+aI1
+asS'Aleksandar Radivojevic'
+p519
+(lp520
+F5.2
+aI1
+asS'Andy Diggle'
+p521
+(lp522
+F6.4
+aI1
+asS'Neil Marshall'
+p523
+(lp524
+F6.4
+aI1
+asS'Curt Siodmak'
+p525
+(lp526
+F5.8
+aI1
+asS'Jamie Linden'
+p527
+(lp528
+F6.3
+aI1
+asS'Bob DeRosa'
+p529
+(lp530
+F5.4
+aI2
+asS'Andrew Kevin Walker'
+p531
+(lp532
+F5.8
+aI1
+asS'John Hamburg'
+p533
+(lp534
+F5.5
+aI1
+asS'Gabe Sachs'
+p535
+(lp536
+F6.2
+aI1
+asS'Jonathan Bernstein'
+p537
+(lp538
+F5.4
+aI1
+asS'Sngmoo Lee'
+p539
+(lp540
+F6.3
+aI1
+asS'Stephen Merchant'
+p541
+(lp542
+F6.9
+aI1
+asS'Juuso Helander'
+p543
+(lp544
+F6.7
+aI1
+asS'Matt Lopez'
+p545
+(lp546
+F6.1
+aI1
+asS'Shawn Copenhaver'
+p547
+(lp548
+F3.9
+aI1
+asS'Nicole Holofcener'
+p549
+(lp550
+F6.6
+aI1
+asS'Darren Star'
+p551
+(lp552
+F4.3
+aI1
+asS'Peter Schink'
+p553
+(lp554
+F5.2
+aI1
+asS'Yasuhiro Nightow'
+p555
+(lp556
+F7.5
+aI2
+asS'Mark Millar'
+p557
+(lp558
+F7.7
+aI1
+asS'Nick Onsloe'
+p559
+(lp560
+F3.7
+aI1
+asS'James L. Brooks'
+p561
+(lp562
+F5.3
+aI1
+asS'Monty Featherstone'
+p563
+(lp564
+F4.6
+aI1
+asS'Christopher Nolan'
+p565
+(lp566
+F8.8
+aI1
+asS'Ian Deitchman'
+p567
+(lp568
+F6.6
+aI1
+asS'Alejandro Gonz\xc3\xa1lez I\xc3\xb1\xc3\xa1rritu'
+p569
+(lp570
+F7.5
+aI2
+asS'John Gray'
+p571
+(lp572
+F6.9
+aI1
+asS'Tetsuya Nakashima'
+p573
+(lp574
+F7.8
+aI1
+asS'Jeong-beom Lee'
+p575
+(lp576
+F7.9
+aI1
+asS'Susanne Bier'
+p577
+(lp578
+F7.7
+aI1
+asS'Leiji Matsumoto'
+p579
+(lp580
+F6.1
+aI1
+asS'Slavomir Rawicz'
+p581
+(lp582
+F7.3
+aI1
+asS'Davis Guggenheim'
+p583
+(lp584
+F7.5
+aI1
+asS'Robb Cullen'
+p585
+(lp586
+F5.6
+aI1
+asS'Bob Kane'
+p587
+(lp588
+F8.0
+aI1
+asS'Scott Stewart'
+p589
+(lp590
+F5.2
+aI1
+asS'Sarah Thorp'
+p591
+(lp592
+F5.5
+aI1
+asS'Josh Heald'
+p593
+(lp594
+F6.4
+aI1
+asS'Andrew Scheinman'
+p595
+(lp596
+F7.7
+aI1
+asS'Taika Waititi'
+p597
+(lp598
+F7.5
+aI1
+asS'Nick Moorcroft'
+p599
+(lp600
+F6.2
+aI1
+asS'Chad Beck'
+p601
+(lp602
+F8.3
+aI1
+asS'Stanley Weiser'
+p603
+(lp604
+F6.3
+aI1
+asS'Rajiv Chandrasekaran'
+p605
+(lp606
+F6.9
+aI1
+asS'Boaz Yakin'
+p607
+(lp608
+F6.6
+aI1
+asS'John Requa'
+p609
+(lp610
+F4.3
+aI1
+asS'Elizabeth Gilbert'
+p611
+(lp612
+F5.7
+aI1
+asS'Michael Petroni'
+p613
+(lp614
+F6.3
+aI1
+asS'Patrick Melton'
+p615
+(lp616
+F5.6
+aI1
+asS'Steve Kloves'
+p617
+(lp618
+F7.7
+aI1
+asS'Sergio Pablos'
+p619
+(lp620
+F7.7
+aI1
+asS'Don Heck'
+p621
+(lp622
+F7.0
+aI1
+asS'Sanjeev Dutta'
+p623
+(lp624
+F6.0
+aI1
+asS'Vikramaditya Motwane'
+p625
+(lp626
+F8.3
+aI1
+asS'Ben Shillito'
+p627
+(lp628
+F3.7
+aI1
+asS'Brian Nelson'
+p629
+(lp630
+F6.3
+aI1
+asS'Stephenie Meyer'
+p631
+(lp632
+F4.9
+aI1
+asS'Melissa Rosenberg'
+p633
+(lp634
+F4.9
+aI1
+asS'Brad Copeland'
+p635
+(lp636
+F4.6
+aI1
+asS'Anurag Kashyap'
+p637
+(lp638
+F8.3
+aI1
+asS'Emilio Estevez'
+p639
+(lp640
+F7.4
+aI1
+asS'James M. Vernon'
+p641
+(lp642
+F5.8
+aI1
+asS'Paul Tamasy'
+p643
+(lp644
+F7.9
+aI1
+asS'Shane Van Dyke'
+p645
+(lp646
+F1.6
+aI1
+asS'Michael Carnes'
+p647
+(lp648
+F3.8
+aI1
+asS'Meruan Salim'
+p649
+(lp650
+F7.6
+aI1
+asS'Swanand Kirkire'
+p651
+(lp652
+F7.5
+aI1
+asS'Rodleen Getsic'
+p653
+(lp654
+F3.6
+aI1
+asS'Dan Rush'
+p655
+(lp656
+F6.4
+aI1
+asS'Jag Mundhra'
+p657
+(lp658
+F3.5
+aI1
+asS'Robin Bhatt'
+p659
+(lp660
+F6.0
+aI1
+asS'Emily Meyer'
+p661
+(lp662
+F6.2
+aI1
+asS'K\xc3\xb4ta Yoshida'
+p663
+(lp664
+F5.9
+aI1
+asS'Michael Bacall'
+p665
+(lp666
+F7.5
+aI1
+asS'Charles Ferguson'
+p667
+(lp668
+F8.3
+aI1
+asS'Edward Kitsis'
+p669
+(lp670
+F6.8
+aI2
+asS'Raymond Carver'
+p671
+(lp672
+F6.4
+aI1
+asS'Moe Jelline'
+p673
+(lp674
+F5.8
+aI1
+asS'Ben Mezrich'
+p675
+(lp676
+F7.7
+aI1
+asS'David Seidler'
+p677
+(lp678
+F8.0
+aI1
+asS'Ron J. Friedman'
+p679
+(lp680
+F4.3
+aI1
+asS'Aaron Sorkin'
+p681
+(lp682
+F7.7
+aI1
+asS'Posy Simmonds'
+p683
+(lp684
+F6.2
+aI1
+asS'Agust\xc3\xad Villaronga'
+p685
+(lp686
+F7.0
+aI1
+asS'Hayao Miyazaki'
+p687
+(lp688
+F7.7
+aI1
+asS'Andres Heinz'
+p689
+(lp690
+F8.0
+aI1
+asS'William Monahan'
+p691
+(lp692
+F6.2
+aI1
+asS'Floria Sigismondi'
+p693
+(lp694
+F6.6
+aI1
+asS'Nick Pustay'
+p695
+(lp696
+F6.7
+aI1
+asS'Doug Miro'
+p697
+(lp698
+F6.6
+aI1
+asS'Ben Sherwood'
+p699
+(lp700
+F6.5
+aI1
+asS'Chris Sparling'
+p701
+(lp702
+F7.0
+aI1
+asS'Rob Reiner'
+p703
+(lp704
+F7.7
+aI1
+asS'Larysa Kondracki'
+p705
+(lp706
+F7.2
+aI1
+asS'Sofia Coppola'
+p707
+(lp708
+F6.4
+aI1
+asS'John Solomon'
+p709
+(lp710
+F5.5
+aI1
+asS'Ryan Murphy'
+p711
+(lp712
+F5.7
+aI1
+asS'John Lasseter'
+p713
+(lp714
+F8.3
+aI1
+asS'Peter Morgan'
+p715
+(lp716
+F6.5
+aI1
+asS'Colm McCarthy'
+p717
+(lp718
+F5.4
+aI1
+asS'Moira Buffini'
+p719
+(lp720
+F6.2
+aI1
+asS'Emma Thompson'
+p721
+(lp722
+F6.1
+aI1
+asS'Zarshi Dhawa'
+p723
+(lp724
+F6.8
+aI1
+asS'Niranjan Iyengar'
+p725
+(lp726
+F8.0
+aI1
+asS'Dario Poloni'
+p727
+(lp728
+F6.4
+aI1
+asS'Jason Daly'
+p729
+(lp730
+F3.9
+aI1
+asS'Julio Medem'
+p731
+(lp732
+F6.2
+aI1
+asS'Alex Garland'
+p733
+(lp734
+F7.2
+aI1
+asS'Jeff Van Wie'
+p735
+(lp736
+F5.8
+aI1
+asS'William Farmer'
+p737
+(lp738
+F4.7
+aI1
+asS'Eilis Kirwan'
+p739
+(lp740
+F7.2
+aI1
+asS'Jane English'
+p741
+(lp742
+F7.0
+aI1
+asS'Jeffrey Friedman'
+p743
+(lp744
+F6.8
+aI1
+asS'Alex Litvak'
+p745
+(lp746
+F6.4
+aI1
+asS'William Nack'
+p747
+(lp748
+F7.2
+aI1
+asS'Justin Theroux'
+p749
+(lp750
+F7.0
+aI1
+asS'Christianna Brand'
+p751
+(lp752
+F6.1
+aI1
+asS'Olumide Odebunmi'
+p753
+(lp754
+F5.1
+aI1
+asS'Gregory Poirier'
+p755
+(lp756
+F5.4
+aI1
+asS'Mark Cullen'
+p757
+(lp758
+F5.6
+aI1
+asS'Paul Scheuring'
+p759
+(lp760
+F6.4
+aI1
+asS'Regina Y. Hicks'
+p761
+(lp762
+F5.1
+aI1
+asS'Preston Lacy'
+p763
+(lp764
+F7.1
+aI1
+asS'Adam Rehmeier'
+p765
+(lp766
+F3.6
+aI1
+asS'Jeremy Doner'
+p767
+(lp768
+F6.8
+aI1
+asS'Y\xc3\xbbki Sat\xc3\xb4'
+p769
+(lp770
+F7.1
+aI1
+asS'Jordan Melamed'
+p771
+(lp772
+F5.7
+aI1
+asS'Kanae Minato'
+p773
+(lp774
+F7.8
+aI1
+asS'Cherie Currie'
+p775
+(lp776
+F6.6
+aI1
+asS'Ho-sik Kim'
+p777
+(lp778
+F4.9
+aI1
+asS'Olatunde Osunsanmi'
+p779
+(lp780
+F5.1
+aI1
+asS'Steve Bencich'
+p781
+(lp782
+F4.3
+aI1
+asS'Tom Pabst'
+p783
+(lp784
+F5.7
+aI1
+asS'Ricky Gervais'
+p785
+(lp786
+F6.9
+aI1
+asS'Patrick Hughes'
+p787
+(lp788
+F6.4
+aI1
+asS'Darren Lemke'
+p789
+(lp790
+F6.4
+aI1
+asS'Lisa Cholodenko'
+p791
+(lp792
+F7.1
+aI1
+asS'Satyanshu Singh'
+p793
+(lp794
+F8.3
+aI1
+asS'Jee-woon Kim'
+p795
+(lp796
+F7.8
+aI1
+asS'Roman Polanski'
+p797
+(lp798
+F7.2
+aI1
+asS'Anders Thomas Jensen'
+p799
+(lp800
+F7.7
+aI2
+asS'Ken Daurio'
+p801
+(lp802
+F7.7
+aI1
+asS'Chris Sanders'
+p803
+(lp804
+F8.2
+aI1
+asS'Skip Woods'
+p805
+(lp806
+F6.8
+aI1
+asS'Billy Kimball'
+p807
+(lp808
+F7.5
+aI1
+asS'Adam Sandler'
+p809
+(lp810
+F6.0
+aI1
+asS'Tyler Perry'
+p811
+(lp812
+F5.2
+aI2
+asS'Tom Abrams'
+p813
+(lp814
+F5.1
+aI1
+asS'Howard Zemski'
+p815
+(lp816
+F4.6
+aI1
+asS'Peter Craig'
+p817
+(lp818
+F7.6
+aI1
+asS'Ntozake Shange'
+p819
+(lp820
+F6.0
+aI1
+asS'John Ajvide Lindqvist'
+p821
+(lp822
+F7.2
+aI2
+asS'Marcus Hinchey'
+p823
+(lp824
+F6.3
+aI1
+as.

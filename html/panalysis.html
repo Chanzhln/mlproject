@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Movie IMDb Predictor: Plain Analysis</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/justified-nav.css" rel="stylesheet">
+
+    <link href="../css/total.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <div class="jumbtron index-header">
+          <h1 class="text-muted logan">
+            <p>Movie IMDb Rating Predictor</p>
+            <p style="font-size:22px">EECS 349, Machine Learning</p>
+            <p style="font-size:22px">Zhilin Chen</p>
+          </h1>
+        </div>
+        <nav>
+          <ul class="nav nav-justified">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="background.html">Background</a></li>
+            <li><a href="dataset.html">Dataset</a></li>
+            <li class="active"><a href="panalysis.html">Plain Analysis</a></li>
+            <li><a href="learning.html">Learning</a></li>
+            <li><a href="conclusion.html">Conclusion</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h2> Why plain analysis? </h2>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp; Before using any machine learning techniques to predict the IMDb ratings of some movies, the raw data we've collected has already provided us many important information. For example, we could figure out the most successful/welcome writers/directors/actors/genres in specific years. These information could also provide us an insight of how the taste of audiences changes among years</p>
+
+          <h2> Top K Genres/Directors/Writers/Actors between 2006 and 2010</h2>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp; These ratings depend on the average IMDb ratings of the related movies. It is simple but useful enough to provide us a basic knowledge of how these attributes affect the IMDb ratings. Following tables are the sample results we get from conducting plain analysis on raw data:</p>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;1)</p>
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <table class="table table-bordered" style="text-align:center">
+                <caption style="text-align:center"> Annual top 3 Genres between 2006 and 2010 </caption>
+                <thead>
+                  <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th>2006</th><th>2007</th><th>2008</th><th>2009</th><th>2010</th>
+                  <tr>
+                </thead>
+                  <tr>
+                    <th>1st</th>
+                    <th>Documentary(7.22)</th><th>Biography(7.39)</th><th>War(7.25)</th><th>Short(7.52)</th><th>Documentary(7.48)</th>
+                  </tr>
+                  <tr>
+                    <th>2nd</th>
+                    <th>War(7.08)</th><th>Documentary(7.30)</th><th>Biography(7.11)</th><th>War(7.15)</th><th>History(7.40)</th>
+                  </tr>
+                  <tr>
+                    <th>3rd</th>
+                    <th>Short(7.07)</th><th>Music(7.25)</th><th>History(6.8)</th><th>Biography(7.02)</th><th>Biography(7.23)</th>
+                  <tr/>
+              </table>
+            </div>
+          </div>
+
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;2)</p>
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <table class="table table-bordered" style="text-align:center">
+                <caption style="text-align:center"> Annual top 3 Directors between 2006 and 2010 </caption>
+                <thead>
+                  <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th>2006</th><th>2007</th><th>2008</th><th>2009</th><th>2010</th>
+                  </tr>
+                </thead>
+                  <tr>
+                    <th>1st</th>
+                    <th>C. Nolan(8.5)</th><th>M. Loades(9.0)</th><th>C. Nolan(9.0)</th><th>A. Ruiz(8.7)</th><th>C. Nolan(8.8)</th>
+                  </tr>
+                  <tr>
+                    <th>2nd</th>
+                    <th>J. Tusty(8.5)</th><th>A. Khan(8.5)</th><th>N. Pandey(8.4)</th><th>L. Psihoyos(8.5)</th><th>A. Kapadia(8.6)</th>
+                  </tr>
+                  <tr>
+                    <th>3rd</th>
+                    <th>M. Scorsese(8.5)</th><th>J. Laurence(8.4)</th><th>A. Stanton(8.4)</th><th>R. Hirani(8.4)</th><th>V. Motwane(8.3)</th>
+                  </tr>
+              </table>
+            </div>
+          </div>
+
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;3)</p>
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <table class="table table-bordered" style="text-align:center">
+                <caption style="text-align:center"> Annual top 3 Writers between 2006 and 2010 </caption>
+                <thead>
+                  <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th>2006</th><th>2007</th><th>2008</th><th>2009</th><th>2010</th>
+                  </tr>
+                </thead>
+                  <tr>
+                    <th>1st</th>
+                    <th>M. Majoros(8.5)</th><th>S. Kass(9.0)</th><th>J. Nolan(9.0)</th><th>A. Ruiz(8.7)</th><th>C. Nolan(8.8)</th>
+                  </tr>
+                  <tr>
+                    <th>2nd</th>
+                    <th>J. Nolan(8.5)</th><th>A. Gupte(8.5)</th><th>C. Nolan(9.0)</th><th>M. Monroe(8.5)</th><th>M. Pandey(8.6)</th>
+                  </tr>
+                  <tr>
+                    <th>3rd</th>
+                    <th>A. Mak(8.5)</th><th>S. Penn(8.2)</th><th>N. Pandey(8.4)</th><th>V. Chopra(8.4)</th><th>L. Unkrich(8.3)</th>
+                  </tr>
+              </table>
+            </div>
+          </div>
+
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;4)</p>
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <table class="table table-bordered" style="text-align:center">
+                <caption style="text-align:center"> Annual top 3 Actors between 2006 and 2010 </caption>
+                <thead>
+                  <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th>2006</th><th>2007</th><th>2008</th><th>2009</th><th>2010</th>
+                  </tr>
+                </thead>
+                  <tr>
+                    <th>1st</th>
+                    <th>H. Jackman(7.32)</th><th>J. Brolin(7.69)</th><th>A. Jolie(7.36)</th><th>E. Bana(7.42)</th><th>M. Wahlberg(6.96)</th>
+                  </tr>
+                  <tr>
+                    <th>2nd</th>
+                    <th>B. Willis(7.16)</th><th>M. Harden(7.23)</th><th>J. Black(7.00)</th><th>C. Plummer(7.40)</th><th>J. Baruchel(6.89)</th>
+                  </tr>
+                  <tr>
+                    <th>3rd</th>
+                    <th>K. Winslet(7.06)</th><th>S. Labeouf(6.93)</th><th>D. Craig(6.89)</th><th>L. Endre(7.23)</th><th>R. Hall(6.86)</th>
+                  </tr>
+              </table>
+            </div>
+          </div>
+
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;5)</p>
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <table class="table table-bordered" style="text-align:center">
+                <caption style="text-align:center"> Top 5 Genres/Director/Writers/Actors between 2006 and 2010 </caption>
+                <thead>
+                  <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th>Genres</th><th>Directors</th><th>Writers</th><th>Actors</th>
+                  <tr>
+                </thead>
+                  <tr>
+                    <th>1st</th>
+                    <th>Biography(7.11)</th><th>C. Nolan(8.77)</th><th>C. Nolan(8.83)</th><th>M. Caine(8.15)</th>
+                  </tr>
+                  <tr>
+                    <th>2nd</th>
+                    <th>War(7.07)</th><th>M. Scorsese(7.93)</th><th>J. Lindqvist(7.6)</th><th>A. Khan(7.96)</th>
+                  </tr>
+                  <tr>
+                    <th>3rd</th>
+                    <th>Documentary(7.05)</th><th>D. Fincher(7.73)</th><th>A. Jensen(7.58)</th><th>C. Bale(7.8)</th>
+                  </tr>
+                  <tr>
+                    <th>4th</th>
+                    <th>History(6.93)</th><th>S. Bier(7.56)</th><th>D. Cohen(7.4)</th><th>L. DiCaprio(7.78)</th>
+                  </tr>
+                  <tr>
+                    <th>5th</th>
+                    <th>Short(6.71)</th><th>D. Yates(7.56)</th><th>M. Groening(7.39)</th><th>M. Ruffalo(7.57)</th>
+                  </tr>
+              </table>
+            </div>
+          </div>
+
+          <h2>How average IMDb ratings goes among years?</h2>
+           <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp; We can notice from the image below that annual average IMDb ratings would fluctuate around 6.3. 1992 could be considered as the 'golden year' of movies. What's more, we are witnessing a downward trend of IMDb ratings, which could indicates that the audiences are more fastidious about movies or that the current movies are worse than decades before</p>
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <img style="align:center" src="../image/average_imdb.png" width="100%">
+            </div>
+          </div>
+
+        <!-- End of contents !-->
+        </div>
+      </div>
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; Zhilin Chen, zhilinchen2015@u.northwestern.edu </p>
+        <p>&nbsp;&nbsp;&nbsp; 2016 EECS 349, Machine Learning</p>
+        <p>&nbsp;&nbsp;&nbsp; Northwestern University</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

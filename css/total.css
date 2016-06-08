@@ -1,0 +1,32 @@
+.index-header
+{
+  padding-top: 0px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  height:300px;
+  background-image: url("../image/index-background.jpg");
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+}
+
+.logan
+{	
+  color:white;
+  margin-left: auto;
+  margin-right: auto;
+  width:700px;
+	padding-top: 100px;
+  padding-bottom: 50px;
+  text-shadow:1px 1px black;
+	text-align: center
+}
+
+.normal-text
+{
+  line-height: 200%;
+}
+
+th
+{
+  text-align: center;
+}
