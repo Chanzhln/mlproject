@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Movie IMDb Predictor: Background</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/justified-nav.css" rel="stylesheet">
+
+    <link href="../css/total.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <div class="jumbtron index-header">
+          <h1 class="text-muted logan">
+            <p>Movie IMDb Rating Predictor</p>
+            <p style="font-size:22px">EECS 349, Machine Learning</p>
+            <p style="font-size:22px">Zhilin Chen</p>
+          </h1>
+        </div>
+        <nav>
+          <ul class="nav nav-justified">
+            <li><a href="../index.html">Home</a></li>
+            <li class="active"><a href="background.html">Background</a></li>
+            <li><a href="dataset.html">Dataset</a></li>
+            <li><a href="panalysis.html">Plain Analysis</a></li>
+            <li><a href="learning.html">Learning</a></li>
+            <li><a href="conclusion.html">Conclusion</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+        <h2> What is our task and motivation? </h2>
+
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp; Movies, originally invented in the 1990s for entertainment, has now became an indispensable part of human culture. There are multiple criteria to define a “good” movie: if a movie profitable, popular or if it introduces new techniques in filmmaking.  In my tasks, I’m going to adapt the rating of IMDb(Internet Movie Database) to define if a movie is “good” because it fairly reflects how public evaluate this movie.</p>
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp; Our task is to <b>determine what and how attributes decide the IMDb rating of a movie</b>. For example, how movie’s genre, director, stars or production corporation effect its IMDb ratings. This would be interesting and meaningful. A businessman would want to use it because he can know will a movie be popular and profitable beforehand. What’s else, this predictor could also provide us and relevant scholars how public preferences in movies change over time.
+        </p>
+        <h2> What is IMDb and IMDb ratings? </h2>
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;The Internet Movie Database (abbreviated IMDb) is an online database<a href="http://www.imdb.com/" target="_blank">(www.imdb.com)</a> of information related to films, television programs and video games, including cast, production crew, fictional characters, biographies, plot summaries, trivia and reviews. Actors and crew can post their own resume and upload photos of themselves for a yearly fee. U.S. users can view over 6,000 movies and television shows from CBS, Sony, and various independent filmmakers. </p>
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;In IMDb voting system, each registered users can cast a vote(from 1 to 10) on every released title in the database. Users can vote as many times as they want but every vote will overwrite the previous one so it is one vote per title per user.</p>
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;IMDb takes all the individual votes cast by IMDb registered users and use them to calculate a single rating and they don't use the arithmetic mean of the votes (although they do display the mean and average votes on the votes breakdown). IMDb displays weighted vote averages rather than raw data averages. Various filters are applied to the raw data in order to eliminate and reduce attempts at "vote stuffing" by individuals more interested in changing the current rating of a movie or TV show than giving their true opinion of it.</p>
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;Although the raw mean and median are shown under the detailed vote breakdown graph on the ratings pages, the user rating vote displayed on a film / show's page is a weighted average. In order to avoid leaving the scheme open to abuse, IMDb does not disclose the exact methods used.</p>
+        <p clsss="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;In a word, IMDb ratings could reflect HOW AUDIENCES LIKE THIS MOVIE</p>
+
+
+        <h2> What is our goal and how does it make sense? </h2>
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;Each movie is jointly produced by Director, Writers, Actors and so on. These people (with their professional skills, specific understanding of movies and their audiences or any chemistry among them) and the content (some basic features such as Genres, Language and Country) could decide the quality of a movie (in terms of IMDb rating).</p>
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;Therefore, in our task, we are going to predict the IMDb rating of movie with some given attributes.</p>
+
+        <h2> Why is it important? </h2>
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;In general, this task would help: </p>
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) provide businessmen who want to make profitable movies a guideline to choose the staffs. </p>
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2) provide us an insight into how the taste of audiences changes among years.</p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; Zhilin Chen, zhilinchen2015@u.northwestern.edu </p>
+        <p>&nbsp;&nbsp;&nbsp; 2016 EECS 349, Machine Learning</p>
+        <p>&nbsp;&nbsp;&nbsp; Northwestern University</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

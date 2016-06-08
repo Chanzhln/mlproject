@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Movie IMDb Predictor: Learning</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/justified-nav.css" rel="stylesheet">
+
+    <link href="../css/total.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <div class="jumbtron index-header">
+          <h1 class="text-muted logan">
+            <p>Movie IMDb Rating Predictor</p>
+            <p style="font-size:22px">EECS 349, Machine Learning</p>
+            <p style="font-size:22px">Zhilin Chen</p>
+          </h1>
+        </div>
+        <nav>
+          <ul class="nav nav-justified">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="background.html">Background</a></li>
+            <li><a href="dataset.html">Dataset</a></li>
+            <li><a href="panalysis.html">Plain Analysis</a></li>
+            <li class="active"><a href="learning.html">Learning</a></li>
+            <li><a href="conclusion.html">Conclusion</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Pre-procession of the dataset and why</h2>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp; In order to make this problem easier, we tried to classified the IMDb ratings to make this problem from a regression problem to a supervised classification problem. More specifically, we classified movies into five classes according to their IMDb ratings(<i>r</i>): <b><i>S</i></b>(8.5 &le; <i>r</i>), <b><i>A</i></b>(7.5 &le; <i>r</i> &lt; 8.5), <b><i>B</i></b>(6.5 &le; <i>r</i> &le; 7.5), <b><i>C</i></b>(5.5&le; <i>r</i> &le; 6.5) and <b><i>F</i></b>(<i>r</i> &le; 5.5).
+          </p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp; What's more, limited to small dataset, it's difficult to adapt any learning techniques on raw data as most of the attributes are consist of many different names while most of them only appear one or two times in the dataset. What's worse, this data set is far from enough to cover all the directors, writers or actors in movie industry, which could result in a bad performance of this predictor. Therefore, we going to turn all the nominal values into numerical values by substituting names with the average imdb ratings of the work they have involved in.
+          </p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;For more details of the processed data, please refer to the "screenshot of the processed data" under "Dataset" category.
+          </p>
+          
+          <h2>Model selection and possible explanation</h2>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp; Before going deep into some learning techniques, we first use Weka and try different models and select the one with the highest accuracy(Correctly Classified Instances) in 10-folds cross-validation.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <table class="table table-bordered">
+            <caption style="text-align:center"> Accuracy of different models in 10-folds crossvalidation </caption>
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>ZeroR</th><th>J48</th><th>lazy.IB1</th><th>lazy.IB5</th>
+                <th>BayesNet</th><th>NaiveBayes</th><th>KStar</th><th>MultilayerPerceptron</th>
+              </tr>
+              <tr>
+                <th>Accuracy(%)</th>
+                <th>38.62</th><th>72.35</th><th>60.13</th><th>62.71</th>
+                <th>82.02</th><th>79.05</th><th>70.52</th><th>Takes too much time to run</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp; We could notice from the table above that both NaiveBayes and BayesNet could obtain satisfying accuracy on our task. ZeroR provides us a baseline of the accuracy we could achieve through learning. Obviously, our task is far away from "If-else-then" problem and it's much more complicated than simply splitting/filtering examples according to some attributes and then getting the right result. "K-Nearest-Neighbor" model in our task could be considered as "If some movie is close enough to K successful movies, then it would success". It makes sense, but it eventually obtain poor accuracy. It might because it's really difficult to figure out the proper "K". NaiveBayes returns a relatively high accuracy and provides us an acceptable explaination: "If some parts(such as directors, writers and actors) of the movie are good, the movie would be much more likely to success". This explaination could also justify the high accuracy of BayesNet, since each attribute would be related to other attributes in our problem.
+        </p>
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp; Therefore, we choose BayesNet as the basic model for our predictor.
+        </p>
+
+        <h2> Learning curves </h2>
+        <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp; Then we go deep into BayesNet. We explore its accuracy on training set/ testing set/ 10-folds cross validation among the size of training set. We can notice from the chart below that these accuracies do not flucutuate too much. They are steady and close to each other. I consider it a successful result for the following reasons:</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1) Our model has achieved really high accuracy(compared to only 38.62% in ZeroR) in out problem.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2) This model is steady as it seems that we don't need to worry about under-fitting and over-fitting problems.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3) When the training set is small, our model still can obtain satisfying accuracy on predicting the imdb ratings of given movie.</p>
+
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1">
+            <img src="../image/learning_curves.png" width=100% alt="learning curves">
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; Zhilin Chen, zhilinchen2015@u.northwestern.edu </p>
+        <p>&nbsp;&nbsp;&nbsp; 2016 EECS 349, Machine Learning</p>
+        <p>&nbsp;&nbsp;&nbsp; Northwestern University</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

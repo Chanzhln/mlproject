@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Movie IMDb Predictor: Conclusion</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/justified-nav.css" rel="stylesheet">
+
+    <link href="../css/total.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <div class="jumbtron index-header">
+          <h1 class="text-muted logan">
+            <p>Movie IMDb Rating Predictor</p>
+            <p style="font-size:22px">EECS 349, Machine Learning</p>
+            <p style="font-size:22px">Zhilin Chen</p>
+          </h1>
+        </div>
+        <nav>
+          <ul class="nav nav-justified">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="background.html">Background</a></li>
+            <li><a href="dataset.html">Dataset</a></li>
+            <li><a href="panalysis.html">Plain Analysis</a></li>
+            <li><a href="learning.html">Learning</a></li>
+            <li class="active"><a href="conclusion.html">Conclusion</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h2> Conclusion </h2>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;Generally speaking, we are really successful in our predictor for the following reason:</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1) Plain analysis provides us important and enough insight of the current movie industry. For example, top K genres/directors/writers/actors in specific years/period.
+          </p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2) Our model has achieved really high accuracy(compared to only 38.62% in ZeroR) in out problem.
+          </p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3) This model is steady as it seems that we don't need to worry about under-fitting and over-fitting problems.
+          </p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4) When the training set is small, our model still can obtain satisfying accuracy on predicting the imdb ratings of given movie.</p>
+
+          <h2> Suggestion for future work </h2>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp; We should keep enlarging the dataset for our predicator. We believe that if it's large enough, we are able to achieve satisfying result withou any pre-procession and we might figure out relation between specific writers/actors/diretors with the IMDb ratings.
+          </p>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp; In our problem, we treat it as classification problem. It would be better if we could treat it a regression problem and then figure out a more specific model to predict the exact IMDb rating of movie.
+          </p>
+        </div>
+      </div>
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; Zhilin Chen, zhilinchen2015@u.northwestern.edu </p>
+        <p>&nbsp;&nbsp;&nbsp; 2016 EECS 349, Machine Learning</p>
+        <p>&nbsp;&nbsp;&nbsp; Northwestern University</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

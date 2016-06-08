@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Movie IMDb Predictor: Dataset</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/justified-nav.css" rel="stylesheet">
+
+    <link href="../css/total.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <div class="jumbtron index-header">
+          <h1 class="text-muted logan">
+            <p>Movie IMDb Rating Predictor</p>
+            <p style="font-size:22px">EECS 349, Machine Learning</p>
+            <p style="font-size:22px">Zhilin Chen</p>
+          </h1>
+        </div>
+        <nav>
+          <ul class="nav nav-justified">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="background.html">Background</a></li>
+            <li class="active"><a href="dataset.html">Dataset</a></li>
+            <li><a href="panalysis.html">Plain Analysis</a></li>
+            <li><a href="learning.html">Learning</a></li>
+            <li><a href="conclusion.html">Conclusion</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Where and how do we grab data?</h2>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;1)The Open Movie Database(OMDb, <a href="http://www.omdbapi.com" target="_blank">http://www.omdbapi.com</a>) API is a free web service to obtain movie. It provides us an API to access to the information of movies. Its search engine would return the information of target movie in JSON format like following:</p>
+        </div>
+      </div>
+      <div class="row">
+        <pre class="col-lg-10 col-lg-offset-1 normal-text">{"Title":"Zootopia","Year":"2016","Rated":"PG","Released":"04 Mar 2016","Runtime":"108 min","Genre":"Animation, Action,<br> Adventure","Director":"Byron Howard, Rich Moore, Jared Bush","Writer":"Byron Howard (story by), Jared Bush (story by),<br> Rich Moore (story by), Josie Trinidad (story by), Jim Reardon (story by), Phil Johnston (story by),<br> Jennifer Lee (story by), Jared Bush (screenplay), Phil Johnston (screenplay)","Actors":"Ginnifer Goodwin, Jason Bateman,<br> Idris Elba, Jenny Slate", "Plot":"In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist<br> fox must work together to uncover a conspiracy.","Language":"English, Norwegian","Country":"USA","Awards":"1 nomination.",<br> "Poster":"http://ia.media-imdb.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg",<br> "Metascore":"78","imdbRating":"8.2","imdbVotes":"101,917","imdbID":"tt2948356","Type":"movie","Response":"True"}</pre>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;2) Movie lists from wikipedia (<a href="https://en.wikipedia.org/wiki/Lists_of_films" target="_blank">https://en.wikipedia.org/wiki/Lists_of_films</a>) and IMDb (<a href="ftp://ftp.funet.fi/pub/mirrors/ftp.imdb.com/pub/" target="_blank">ftp://ftp.funet.fi/pub/mirrors/ftp.imdb.com/pub/</a>)</p>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;3) A self-written python program (<a href="https://github.com/Chanzhln/mlproject/blob/master/Code/data_collect.py" target="_blank">code</a>) that will automatically grab the data from OMDb API of the movies in the given list and then store these datas in .csv files. 
+          <h2>Description of dataset</h2>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;1) Number of examples: 13427 </p>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;2) Training and testing set: We randomly choose 10000 examples as training set and the remaining 3427 examples as testing set.</p>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;3) Attributes (since each movie might have multiple genres, writers, actors and so on, these attributes with multiple values would be split into multiple attributes, such as Genre_1, Genre_2, Genre_3...): 'Title', 'Year', 'Genre_1', 'Genre_2', 'Genre_3', 'Director', 'Writer_1', 'Writer_2', 'Writer_3', 'Actors_1', 'Actors_2', 'Actors_3', 'Actors_4', 'Metascore', 'imdbVotes', 'Language', 'Country' and 'imdbRatings'. And what should we notice is that NOT ALL the attributes have been used in learning (irrelevant attributes, such as 'Title' and 'imdbVotes' would be discarded during the learning).</p>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;4) Screenshot of raw data in .csv file:</p>
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+               <img src = "../image/raw_data.png" style="width:100%">
+            </div>
+          </div>
+          <p class="normal-text">&nbsp;&nbsp;&nbsp;&nbsp;5) Screenshot of processed data in .csv file:</p>
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+               <img src = "../image/processed_data.png" style="width:100%">
+            </div>
+          </div>
+         
+        </div>
+      </div>
+
+
+      
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; Zhilin Chen, zhilinchen2015@u.northwestern.edu </p>
+        <p>&nbsp;&nbsp;&nbsp; 2016 EECS 349, Machine Learning</p>
+        <p>&nbsp;&nbsp;&nbsp; Northwestern University</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
